@@ -1,0 +1,38 @@
+.header {
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.upperHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lowerHeader {
+  font-weight: 600;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.logoName {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.lowerHeaderText {
+  text-align: center;
+}
+
+.gitHubTag {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+#gitHubImg {
+  height: 30px;
+  width: auto;
+}

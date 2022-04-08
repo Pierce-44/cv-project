@@ -1,0 +1,104 @@
+.previewContainer {
+  /* height: 1000px; */
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60vw;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.previewMainBody {
+  display: flex;
+  /* gap: 5px; */
+}
+
+.leftContainer {
+  max-width: 70%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.rightContainer {
+  background-color: rgb(228, 228, 228);
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.personalInfoTitle {
+  color: rgb(23, 23, 117);
+  font-weight: bolder;
+  border-bottom: 1px solid rgb(165, 165, 165);
+  font-size: 1.1rem;
+  padding-bottom: 5px;
+  margin-top: 25px;
+}
+
+.userName {
+  display: flex;
+  gap: 10px;
+  font-size: 2.5rem;
+}
+
+.userName p {
+  margin-bottom: 5px;
+  margin-top: 30px;
+
+}
+
+.personalDescription {
+  text-align: justify;
+}
+
+.currentJob {
+  margin-bottom: 0px;
+  font-size: 1.4rem;
+}
+
+.previewHeader {
+  background-color: rgb(23, 23, 117);
+  color: white;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+
+.miniTitle {
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 25px;
+  color: rgb(65, 65, 65);
+}
+
+.personalInfoTag {
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.experienceContainer {
+  display: flex;
+}
+
+.rightExperience {
+  padding-left: 50px;
+}
+
+#experienceTitle {
+  margin-bottom: 0px;
+}
+
+.fromDates {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(65, 65, 65);
+}
+
+.titleName {
+  font-weight: bold;
+  color: rgb(65, 65, 65);
+}
+
+.jobDescription {
+  text-align: justify;
+}

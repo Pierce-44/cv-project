@@ -26,6 +26,7 @@
             "single",
             { "avoidEscape": true, "allowTemplateLiterals": false }
           ],
-        "react/react-in-jsx-scope": "off"
+        "react/react-in-jsx-scope": "off",
+        "react/prefer-stateless-function": "off"
     }
 }
